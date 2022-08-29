@@ -1,0 +1,39 @@
+.tools {
+	margin-top: 126px;
+	&__wrapper {
+		margin-top: 60px;
+		display: flex;
+		flex-direction: row;
+		// justify-content: space-between;
+		align-content: flex-start;
+		flex-wrap: wrap;
+	}
+	&__item {
+		margin: 6px 6px;
+		padding: 30px 30px 30px 25px;
+		width: 270px;
+		height: 270px;
+		border: 1px solid #000000;
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		align-content: flex-start;
+	}
+	&__title {
+		margin-top: 15px;
+		
+	}
+	&__title-jquery {
+		margin-top: 38px;
+	}
+	&__title-mongo {
+		margin-top: 32px;
+	}
+	
+	&__descr {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 18px;
+		color: #000000;
+	}
+}
