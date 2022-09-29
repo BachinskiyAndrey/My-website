@@ -8,6 +8,9 @@
 	align-items: center;
 	height: 340px;
 	z-index: 3;
+	&__link-vk {
+		transform: rotate(-90deg);
+	}
 	
 	&__divider {
 		 width: 2px;
